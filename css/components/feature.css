@@ -1,0 +1,11 @@
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.feature { text-align: center; padding: 20px; }
+.feature i { font-size: 36px; color: #ff6b4a; }
+.feature h3 { margin-bottom: 6px; }
+@media (max-width: 768px) {
+  .features { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wanderlist – weekend trips for exchange students</title>
+    <meta name="description" content="Wanderlist plans cheap, train-friendly weekend trips for exchange students in Europe.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+      <div class="container navbar-inner">
+        <a href="#" class="navbar-brand"><i class="fa-solid fa-train"></i> Wanderlist</a>
+        <a href="#signup" class="btn-ghost">Join the beta</a>
+      </div>
+    </div>
+
+    <!-- Banner -->
+    <div class="banner">
+      <div class="container">
+        <h1>Your semester abroad, one weekend at a time</h1>
+        <h2>Train-friendly trips from your campus, planned around your class schedule and your budget.</h2>
+        <a href="#signup" class="btn-primary">Get early access</a>
+      </div>
+    </div>
+
+    <!-- How it works -->
+    <div class="container section">
+      <h2 class="section-title">How it works</h2>
+      <div class="features">
+        <div class="feature">
+          <i class="fa-solid fa-calendar-days"></i>
+          <h3>Add your free days</h3>
+          <p>Paste your timetable and we spot every long weekend.</p>
+        </div>
+        <div class="feature">
+          <i class="fa-solid fa-route"></i>
+          <h3>Get a train route</h3>
+          <p>Door-to-door itineraries using rail passes and night trains.</p>
+        </div>
+        <div class="feature">
+          <i class="fa-solid fa-users"></i>
+          <h3>Travel together</h3>
+          <p>Match with classmates heading the same way and split the costs.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card grid -->
+    <div class="container section">
+      <h2 class="section-title">Popular weekends from Paris</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="images/zermatt.jpg" alt="Zermatt">
+          <div class="card-body">
+            <h3>Zermatt</h3>
+            <p>Glaciers and the Matterhorn, 6h by train.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/vienna.jpg" alt="Vienna">
+          <div class="card-body">
+            <h3>Vienna</h3>
+            <p>Cafés and palaces by night train.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/lisbon.jpg" alt="Lisbon">
+          <div class="card-body">
+            <h3>Lisbon</h3>
+            <p>Sunsets, trams and pastéis de nata.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/barcelona.jpg" alt="Barcelona">
+          <div class="card-body">
+            <h3>Barcelona</h3>
+            <p>Gaudí and the beach, 6h30 by TGV.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team (avatars) -->
+    <div class="container section text-center">
+      <h2 class="section-title">Made by students, for students</h2>
+      <img src="images/avatar.png" alt="Franny" class="avatar avatar-large">
+      <p>Hi, I'm Franny, an exchange student at ESSEC who spent too many nights comparing train tickets.</p>
+    </div>
+
+    <!-- Sign up with Typeform -->
+    <div class="signup" id="signup">
+      <div class="container text-center">
+        <h2>Be the first to try Wanderlist</h2>
+        <p>Tell us where you study and where you dream of going.</p>
+        <!-- 👉 Replace TYPEFORM_ID with the ID of your own typeform (from Share > Embed in Typeform) -->
+        <button class="btn-primary" data-tf-popup="TYPEFORM_ID" data-tf-opacity="100" data-tf-size="100"
+                data-tf-iframe-props="title=Wanderlist beta" data-tf-transitive-search-params data-tf-medium="snippet">
+          Join the beta
+        </button>
+        <p id="signup-hint" class="hint"></p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container text-center">
+        <ul class="list-inline">
+          <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          <li><a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+        <p>© 2026 Wanderlist, made with ❤️ at Le Wagon</p>
+      </div>
+    </div>
+
+    <script src="//embed.typeform.com/next/embed.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

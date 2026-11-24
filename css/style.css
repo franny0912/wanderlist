@@ -1,0 +1,40 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Nunito:wght@300;400;700&display=swap");
+
+/* Importing component files */
+@import url("components/container.css");
+@import url("components/navbar.css");
+@import url("components/button.css");
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/feature.css");
+@import url("components/card.css");
+@import url("components/signup.css");
+@import url("components/footer.css");
+
+/* General style rules for fonts and colors */
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  color: #3d4451;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #1f2a44;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center { text-align: center; }
+
+.section { padding: 60px 0 20px; }
+.section-title { text-align: center; margin-bottom: 30px; }
+
+.list-inline { list-style: none; padding-left: 0; }
+.list-inline > li { display: inline; padding: 0 12px; }
